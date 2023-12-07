@@ -11,6 +11,7 @@ const Navbar = () => {
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
         <a
           href="https://drive.google.com/file/d/1qv2bGv0LKFD26XEm18rBwJzlBI45nYx_/view?usp=sharing"
+          // href=""
           className="h-auto w-auto flex flex-row items-center"
         >
           <Image
@@ -59,6 +60,15 @@ const Navbar = () => {
             className="cursor-pointer hover:animate-slowspin"
           />
         </Link>
+        {/* {Socials.map((social) => (
+            <Image
+              src={social.src}
+              alt={social.name}
+              key={social.name}
+              width={24}
+              height={24}
+            />
+          ))} */}
         </div>
       </div>
     </div>

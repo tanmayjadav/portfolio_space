@@ -11,8 +11,8 @@ import { FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    //<div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] z-9999 ">
+    <div className="w-full h-full relative bottom-0 text-gray-200 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
+    {/* <div className="w-full h-full relative bottom-0 bg-transparent text-gray-200 shadow-lg p-[15px] z-9999 "> */}
         <div className="w-full flex flex-col items-center justify-center m-auto">
             <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
                 
@@ -38,14 +38,11 @@ const Footer = () => {
                         <FaInstagram />
                         <span className="text-[15px] ml-[6px]">Instagram</span>    
                     </p>
-                    {/* <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Twitter</span>    
-                    </p> */}
-                    <a href="http://www.linkedin.com/in/tanmay-jadav21" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxLinkedinLogo />
-                        <p className="text-[15px] ml-[6px]">LinkedIn</p>
-                    </a>
+                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                         <RxLinkedinLogo />
+                        <span className="text-[15px] ml-[6px]">LinkedIn</span>   
+                    </p>
+                       
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">About</div>
@@ -58,10 +55,11 @@ const Footer = () => {
                         <span className="text-[15px] ml-[6px]">Learning about me</span>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                  
-                        <span className="text-[15px] ml-[6px]">
-                            <a href="mailto:tanmayjadav21@gmail.com" className="text-blue-500 hover:underline">tanmayjadav21@gmail.com</a>
-                        </span>    
+                    <span className="text-[15px] ml-[6px]">
+                        <a href="mailto:tanmayjadav21@gmail.com" className="text-blue-500 hover:underline">
+                             tanmayjadav21@gmail.com
+                         </a>
+                    </span>
                     </p>
                 </div>
             </div>
