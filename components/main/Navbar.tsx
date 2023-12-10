@@ -8,9 +8,9 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
-      <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
+      <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[5px]">
         <a
-          href="https://drive.google.com/file/d/1qv2bGv0LKFD26XEm18rBwJzlBI45nYx_/view?usp=sharing"
+          href="https://drive.google.com/file/d/1-wL31g1FEIlZ_U7b_y66r6IP8YWf5i25/view?usp=sharing"
           // href=""
           className="h-auto w-auto flex flex-row items-center"
         >
@@ -22,14 +22,17 @@ const Navbar = () => {
             className="cursor-pointer hover:animate-slowspin"
           />
 
-          <span className="text-lg font-bold ml-[10px] hidden md:block text-gray-300">
-            TANMAY JADAV
-          </span>
+          {/* <span className="text-3xl font-bold ml-[0px] hidden md:block text-gray-300"> */}
+          <span className="text-3xl font-bold ml-[0px] hidden md:block text-gray-300 text-transparent bg-clip-text bg-gradient-to-r to-gray-700 from-gray-500">
+              {" "}
+              Tanmay Jadav{" "}
+            </span>
+          {/* </span> */}
         </a>
 
-        <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
-          <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="https://drive.google.com/file/d/1qv2bGv0LKFD26XEm18rBwJzlBI45nYx_/view?usp=sharing" className="cursor-pointer">
+        <div className="w-[600px] h-full flex flex-row items-center md:mr-20">
+          <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] rounded-full mr-[80px] px-[20px] py-[10px] text-gray-400 text-lg">
+            <a href="https://drive.google.com/file/d/1-wL31g1FEIlZ_U7b_y66r6IP8YWf5i25/view?usp=sharing" className="cursor-pointer">
               Resume
             </a>
             <a href="#skills" className="cursor-pointer">
@@ -38,6 +41,9 @@ const Navbar = () => {
             <a href="#projects" className="cursor-pointer">
               Projects
             </a>
+            {/* <a href="#projects" className="cursor-pointer">
+              Contact
+            </a> */}
           </div>
         </div>
 

@@ -221,20 +221,20 @@ export const Skill_data = [
     {
       skill_name: "Python",
       Image: "/python.png",
-      width: 70,
-      height: 70,
+      width: 65,
+      height: 65,
     },
-    {
-      skill_name: "AI",
-      Image: "/AI.png",
-      width: 100,
-      height: 100,
-    },
+    // {
+    //   skill_name: "AI",
+    //   Image: "/AI.png",
+    //   width: 100,
+    //   height: 100,
+    // },
     {
       skill_name: "tensorflow",
       Image: "/tensor.png",
-      width: 70,
-      height: 70,
+      width: 65,
+      height: 65,
     },
   
     // {
@@ -251,9 +251,9 @@ export const Skill_data = [
   export const Other_skill = [
     {
       skill_name: "trade2",
-      Image: "/trade2.jpg",
-      width: 70,
-      height: 70,
+      Image: "/AI2.png",
+      width: 90,
+      height: 90,
     },
   ];
   
