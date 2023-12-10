@@ -5,9 +5,9 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 const fromEmail = process.env.FROM_EMAIL;
 
 export async function POST(req, res) {
-  console.log("data send first");
+  // console.log("data send first");
   const { email, subject, message } = await req.json();
-  console.log(email, subject, message);
+  // console.log(email, subject, message);
   try {
     const data = await resend.emails.send({
       from:fromEmail,
@@ -22,7 +22,7 @@ export async function POST(req, res) {
         </>
       ),
     });
-    console.log(data);
+    // console.log(data);
 
     return NextResponse.json(data);
   } catch (error) {
